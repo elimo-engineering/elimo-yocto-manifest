@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+
+  <remote fetch="https://git.openembedded.org" name="oe"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/linux-sunxi" name="sunxi"/>
+  <remote fetch="https://github.com/elimo-engineering" name="elimo"/>
+
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone" upstream="kirkstone"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="refs/tags/kirkstone-4.0.5" upstream="kirkstone"/>
+  <project name="meta-sunxi" path="sources/meta-sunxi" remote="sunxi" revision="7f75a3bd1886b72720d1be2e26bf1f456898a7cf"/>
+  <project name="meta-elimo" path="sources/meta-elimo" remote="elimo" revision="refs/tags/kirkstone-v1.0.0"/>
+  <project name="meta-elimo-distro" path="sources/meta-elimo-distro" remote="elimo" revision="refs/tags/kirkstone-v1.0.0"/>
+</manifest>
