@@ -1,0 +1,15 @@
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = https://git.openembedded.org/meta-openembedded
+[submodule "poky"]
+	path = poky
+	url = https://git.yoctoproject.org/git/poky
+[submodule "meta-sunxi"]
+	path = meta-sunxi
+	url = https://github.com/linux-sunxi/meta-sunxi
+[submodule "meta-elimo"]
+	path = meta-elimo
+	url = https://github.com/elimo-engineering/meta-elimo
+[submodule "meta-elimo-distro"]
+	path = meta-elimo-distro
+	url = https://github.com/elimo-engineering/meta-elimo-distro
